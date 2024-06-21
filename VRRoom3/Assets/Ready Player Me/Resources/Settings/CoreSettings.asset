@@ -15,4 +15,4 @@ MonoBehaviour:
   Subdomain: universitysummerproject
   AppId: 663de71650ba7737a73b8a4f
   EnableLogging: 0
-  EnableAnalytics: 1
+  EnableAnalytics: 0
