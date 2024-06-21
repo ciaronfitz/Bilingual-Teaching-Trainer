@@ -831,6 +831,27 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  actions:
+  - actionKeyword: RAISE_HAND
+    actionDescription: i want you to raise your hand
+    actionEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1803735481}
+          m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+          m_MethodName: SetTrigger
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: HandUp
+            m_BoolArgument: 0
+          m_CallState: 2
+  personality: Your name is Vlad and you speak broken English
+  scene: You are in a classroom and the user is your teacher.
+  maxResponseWordLimit: 15
 --- !u!4 &664418433
 Transform:
   m_ObjectHideFlags: 0
@@ -3736,6 +3757,12 @@ Transform:
   - {fileID: 910812633}
   m_Father: {fileID: 460374128}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1803735481 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1343332992235816097, guid: 6fb0466ea331745aabf0fb021a068b14,
+    type: 3}
+  m_PrefabInstance: {fileID: 702476642}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1874772981
 GameObject:
   m_ObjectHideFlags: 0
