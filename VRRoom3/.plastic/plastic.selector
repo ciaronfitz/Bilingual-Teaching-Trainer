@@ -1,4 +1,0 @@
-repository "summerpoject@ciaronfitz@cloud"
-  path "/"
-    smartbranch "/main/ReadyPlayerMeImport" 
-     
