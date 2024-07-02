@@ -71,3 +71,5 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 VR Room/Assets/Samples/OpenAI Unity/0.2.0/Stream Response/StreamResponse.cs
+VR Room/Assets/ChatGPTManager.cs
+VR Room/Assets/ChatGPTManager.cs.meta
